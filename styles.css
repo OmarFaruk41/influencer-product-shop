@@ -1,0 +1,87 @@
+.poppins-regular{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.primary-btn{
+    color: white;
+    background-color: #E02C6D;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 44px;
+    width: 196px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+.primary-btn:hover{
+    background-color: #c64f7b;
+}
+
+/* nav bar */
+
+
+.nave-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 88px 80px 120px;
+    align-items: center;
+     
+}
+.nave-title{
+
+   font-size:1.5rem;
+   font-weight: 700;
+}
+.nav-icone{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.icone{
+   text-decoration: none;
+   margin-right: 32px;
+}
+/* our-Journey section */
+
+.our-Journey-container{
+    display: flex;
+    gap: 133px;
+    margin: 0 120px;
+    padding-bottom: 105px;
+}
+.our-Journey-text{
+    width: 582px;
+    height: 270px;
+}
+.our-Journey-title{
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin-bottom:16px ;
+}
+.our-Journey-description{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.our-Journey-img{
+    background-image:  url(./images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    padding: 30px 33px 31px 2px;
+
+}
+/* logo */
+
+.simple-line{
+    background-color: #C0CCDA;
+    width: 1110px;
+}
+.logo-container{
+    width: 986px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
